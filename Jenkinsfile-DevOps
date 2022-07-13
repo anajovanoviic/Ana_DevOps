@@ -1,0 +1,9 @@
+@Library('ana-library@main') _
+node 
+{
+
+  stage('GitCheckout') 
+  {
+      SourceCheckout("https://github.com/anajovanoviic/maven-project-hello-world.git","master")
+  }
+}
